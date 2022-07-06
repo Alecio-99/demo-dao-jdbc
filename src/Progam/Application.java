@@ -4,7 +4,7 @@ package Progam;
 import java.util.Date;
 
 import model.entities.Department;
-import model.entities.seller;
+import model.entities.Seller;
 
 public class Application {
 
@@ -13,7 +13,7 @@ public class Application {
 		Department obj = new  Department();
 		
 		
-	  seller  seller = new seller (21, "bob", "bob@gmail.com", new Date(), 3000.0, obj );
+	  Seller  seller = new Seller (21, "bob", "bob@gmail.com", new Date(), 3000.0, obj );
 	  
 	  System.out.println(seller);
 
